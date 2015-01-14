@@ -29,3 +29,10 @@ input:not([type='radio'],[class='simpleInput']){
 	color:#696969;
 	margin: 5px;
 }
+table{
+	table-layout: fixed!important;
+}
+.test-style{
+	table-layout: fixed;
+}
+

@@ -27,11 +27,19 @@ public class GirProducts implements Serializable {
 	private String name;
 	@Column(name="PRIZNAK")
 	private Integer priznak;
+	@Column(name="NAME_PRODUCT")
+	private String nameProduct;
 
 	
 	
 	
 	
+	public String getNameProduct() {
+		return nameProduct;
+	}
+	public void setNameProduct(String nameProduct) {
+		this.nameProduct = nameProduct;
+	}
 	public Integer getPriznak() {
 		return priznak;
 	}

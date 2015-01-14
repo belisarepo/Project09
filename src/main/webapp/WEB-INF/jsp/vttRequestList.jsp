@@ -16,9 +16,10 @@
 
 <a href="${serviceListUrl}">Вернуться к списку услуг</a>
 <div class="paging"></div>
-<table id="vtt-table" class="table table-bordered table-striped table-hover">
+<table id="vtt-table" class="table table-bordered table-striped table-hover" style="table-layout:fixed;">
 <thead>
 	<tr>
+		<th>Наименование продукта</th>
 		<th>Описание</th>
 		<th>Область применения</th>
 		<th>УНП</th>
@@ -28,8 +29,9 @@
 	<tbody>
 	<c:forEach var="vtt" items="${vttList}">
 		<tr>
-			<td class="col-md-4 span4"><div style="font-size:x-small">${vtt.desc}</div></td>
-			<td class="col-md-4 span4">${vtt.oblPrim}</td>
+			<td class="col-md-2 span2">${vtt.nameProduct}</td>
+			<td class="col-md-3 span3"><div style="font-size:x-small">${vtt.desc}</div></td>
+			<td class="col-md-3 span3">${vtt.oblPrim}</td>
 			<td class="col-md-2 span2">${vtt.unp}</td>
 			<td class="col-md-2 span2">${vtt.name}</td>
 		</tr>
@@ -41,8 +43,8 @@
 <aui:script>
 $('#vtt-table').datatable({
     pageSize: 6,
-    sort: [true, true, true, true],
-    filters: [true, true, true, true],
+    sort: [true, true, true, true, true],
+    filters: [true, true, true, true, true],
     filterText: 'Поиск...'
 }) ;
 </aui:script>
