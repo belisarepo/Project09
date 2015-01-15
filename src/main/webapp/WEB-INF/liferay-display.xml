@@ -8,5 +8,6 @@
 		<portlet id="ano" />
 		<portlet id="vtt" />
 		<portlet id="news" />
+		<portlet id="newTech" />
 	</category>
 </display>

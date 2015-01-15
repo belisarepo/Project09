@@ -59,6 +59,18 @@
 		<footer-portlet-javascript>/js/jquery.jqpagination.min.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/news/main.js</footer-portlet-javascript>
 	</portlet>
+	<portlet>
+		<portlet-name>newTech</portlet-name>
+		<icon>/icon.png</icon>
+		<requires-namespaced-parameters>false</requires-namespaced-parameters>
+		<header-portlet-css>/css/newTech/main.css</header-portlet-css>
+		<header-portlet-javascript>/js/jquery.1.9.min.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/jquery.plugin.min.js</header-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/datatable.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/chosen.jquery.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/newTech/main.js</footer-portlet-javascript>
+	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
 		<role-link>Administrator</role-link>
