@@ -16,7 +16,7 @@
 		<property name="portletModeMap">
 			<map>
 				<entry key="view">
-					<ref bean="SIIController" />
+					<ref bean="newTechController" />
 				</entry>
 			</map>
 		</property>
